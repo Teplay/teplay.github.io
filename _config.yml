@@ -1,0 +1,6 @@
+baseurl: https://pinemartini.com
+permalink: /:slug
+plugins:
+  - jekyll-redirect-from
+redirect_from:
+  json: false
