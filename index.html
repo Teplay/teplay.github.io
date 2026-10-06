@@ -1,0 +1,33 @@
+---
+description: Marten-ermine roaming about
+---
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Teplay</title>
+		<meta name="description" content="{{ page.description }}">
+		<meta name="theme-color" content="#000000"/>
+		<meta name="referrer" content="no-referrer">
+		<link rel="stylesheet" href="./main.css">
+	</head>
+	<body>
+		<div id="center">
+			<h1>Teplay</h1>
+			<p>{{ page.description }}</p>
+			### <img id="pfp" src="./assets/placeholder.png"/>
+			<div id="links">
+				<a class="link" href="https://bsky.app/profile/teplay">
+					{% include icons/bluesky.svg %}
+				</a>
+				<a class="link" href="https://github.com/Teplay">
+					{% include icons/github.svg %}
+				</a>
+				<a class="link" href="mailto:teplay.pa@gmail.com">
+					{% include icons/email.svg %}
+				</a>
+			</div>
+		</div>
+	</body>
+</html>
